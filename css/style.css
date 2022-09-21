@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 228, 228);
+  }
+ 
+ /* Navigation Menu */ 
+  .topnav {
+    overflow: hidden;
+    background-color: #bebdbd;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(213, 210, 210);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #472b13;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+  }
+  
+  .topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #555;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: rgb(62, 16, 2);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+/* Styling Anchor link*/  
+a{
+  color:purple;
+  }
+
+/* Styling Table*/  
+table, th, td {
+  border: 1px solid black;
+  }
+
+/* Styling headings*/
+h1{
+  font-family: Tahoma, sans-serif;
+  font-style: oblique;
+  color:rgb(60, 16, 23);
+}
+
+h2{
+  font-family: Tahoma, sans-serif;
+  font-style: oblique;
+  color:rgb(48, 47, 71);
+}
+
+h3{
+  left: 100px;
+  font-family: Tahoma, sans-serif;
+  font-style: oblique;
+  color:rgb(156, 98, 98);
+}
+
+/* Styling paragraph text */
+
+p{
+  font-size: 19px;
+  color:rgb(76, 58, 20);
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(80, 80, 49);
+     }
+      
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 94);
+    }
+    
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(48, 87, 66);
+    }
+
+/* Creating a class */
+
+  .colortag1 {
+      color: rgb(255, 0, 0);
+      font-weight: bold;
+  }
+
+/* Creating 4 divs with different backgrounds and dashed border */
+
+  #div1{
+    background-color: rgb(56, 57, 57);
+  }
+  #div2{
+    background-color:crimson;
+  }
+  #div3{
+    background-color:darksalmon;
+  }
+  #div4{
+    background-color:hotpink;
+  }
+  
+  #div1, #div2, #div3, #div4 {
+    border: dashed;
+  }
+
+/* Contact Form */
+
+  * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #747776;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b5b7b5;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style one Paragraph */
+
+#styleoneparagraph {
+  background-color: rgb(174, 174, 174);
+  padding: 18px;
+}
+
+
+#name {
+  text-align: center;
+}
+
+
+.description
+{
+margin: 150px auto;
+width: 50;
+padding 8px;
+}
+
+img
+{
+float:right;
+}
+
+.text
+{
+text-align:justify;
+}
+
+p.ex1 {
+  margin: 35px;
+}
+
+.headline h1, h2, h3, .headline p {
+  display: inline;
+  vertical-align: top;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;    
+}
+.headline h1 {
+  font-weight: bold;
+}
